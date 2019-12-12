@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "575417844825",
+    "firebase_url": "https://demetapp-ab0bf.firebaseio.com",
+    "project_id": "demetapp-ab0bf",
+    "storage_bucket": "demetapp-ab0bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575417844825:android:e7e425b66f84e61e045d48",
+        "android_client_info": {
+          "package_name": "com.r00t.demetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575417844825-dpflacl23k3hbjmdkr9qpnvhvk6ubvra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.r00t.demetapp",
+            "certificate_hash": "dded9ef9262ef875ecbfd6507043884d2c41b385"
+          }
+        },
+        {
+          "client_id": "575417844825-atguu6hfh3di98nelra38j5h4oajcjrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh3x4LHpLHeyzV5Ck1J3WlkfcBN8VbKDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575417844825-atguu6hfh3di98nelra38j5h4oajcjrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

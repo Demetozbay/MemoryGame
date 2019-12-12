@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:id="@+id/mainView"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:gravity="center"
+                                                   tools:context=".activities.MainActivity">
+
+    <Button
+            android:id="@+id/playGameButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button"
+            android:elevation="2dp"
+            android:text="@string/play_game_button"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtonMainActivity"
+
+            android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/leadersButton"/>
+    <Button
+            android:id="@+id/leadersButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button"
+            android:elevation="2dp"
+            android:text="@string/leader_button"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtonMainActivity"
+
+            android:layout_marginStart="24dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/signOutButton"/>
+    <Button
+            android:id="@+id/signOutButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button"
+            android:elevation="2dp"
+            android:text="@string/sign_out_button"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtonMainActivity"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="70dp"/>
+    <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:cardBackgroundColor="#c0c0c0"
+            app:layout_constraintTop_toTopOf="parent">
+        <TextView
+                android:id="@+id/highScoreTextView"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:text="@string/user_high_score"
+                android:textSize="24sp"
+                android:layout_marginTop="50dp" android:textAlignment="center"/>
+        <TextView
+                android:id="@+id/fullNameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/user_full_name"
+                android:textSize="24sp"
+                android:layout_marginBottom="11dp"
+                app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="0dp" android:layout_marginRight="0dp" android:textAlignment="center"/>
+        <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp" tools:srcCompat="@tools:sample/avatars"
+                android:id="@+id/imageView"
+                android:layout_marginTop="30dp"
+        android:layout_gravity="center"/>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

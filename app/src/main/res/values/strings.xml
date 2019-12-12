@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DemetApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_full_name">User Full Name</string>
+    <string name="user_high_score">High Score : 0</string>
+    <string name="play_game_button">Play Game</string>
+    <string name="leader_button">Leaders</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="score_text_view">Score : 0</string>
+    <string name="high_score_text_view">High Score : 0</string>
+    <string name="restart_game_button">Restart Game</string>
+    <string name="goto_main_view_button">Go To Home Page</string>
+    <string name="grid_recycler_view_item_temp_name">_num</string>
+</resources>
